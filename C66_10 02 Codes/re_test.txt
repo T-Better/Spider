@@ -1,0 +1,2 @@
+（33）APP.MAI.MESG.01      关键
+（35）SYS.FUN.CTSK.O1      CICS
