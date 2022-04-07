@@ -10,6 +10,19 @@ res = '''
 from bs4 import BeautifulSoup
 
 soup = BeautifulSoup(res, 'html.parser')
+"""
 title = soup.select('h1')
 for i in title:
     print(i.text)
+"""
+"""
+# 通过class属性
+title2 = soup.select('.title')
+for i in title2:
+    print(i.text)
+"""
+
+# 通过id抓取百度新闻
+source1 =soup.select('#source')
+print(source1)
+
