@@ -26,3 +26,6 @@ for i in title2:
 source1 =soup.select('#source')
 print(source1)
 
+for i in source1:
+    print(i['href'])
+
